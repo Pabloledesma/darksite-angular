@@ -1,0 +1,13 @@
+<div class="lang_selector">
+	<div class="form-group">
+			<div class="input-group">
+			<div class="input-group-addon"><i class="fa fa-globe fa-3"></i></div>
+            <select 
+            	class="form-control" 
+	            ng-model="$ctrl.currentLang" 
+	            ng-options="option.label for option in $ctrl.languages track by option.value"
+	        >
+          	</select>
+		</div>
+	</div>
+</div><!-- lang selector -->
